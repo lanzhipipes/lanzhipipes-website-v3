@@ -21,3 +21,4 @@ Production-ready Next.js website for Lanzhi Pipes Technology Co., Ltd.
 ## Important
 
 The inquiry form opens WhatsApp with the visitor's completed request. No email service key is required.
+Deploy Lanzhi Pipes website
