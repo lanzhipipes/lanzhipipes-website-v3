@@ -1,9 +1,12 @@
 import ProductPage from "@/components/ProductPage";
 
+
 export const metadata = {
   title: "PPR Fittings Manufacturer China",
-  description: "PPR fittings manufacturer and supplier in China providing elbows, tees, sockets, reducers, valves and OEM packaging."
+  description: "PPR fittings manufacturer and supplier in China providing elbows, tees, sockets, reducers, valves and OEM packaging.",
+  alternates: { canonical: "/products/ppr-fittings" }
 };
+
 
 export default function Page() {
   return <ProductPage
@@ -28,3 +31,4 @@ export default function Page() {
     ]}
   />;
 }
+
