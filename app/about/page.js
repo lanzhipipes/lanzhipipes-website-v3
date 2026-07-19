@@ -1,10 +1,13 @@
 import Image from "next/image";
 import PageHero from "@/components/PageHero";
 
+
 export const metadata = {
   title: "About Us | Plastic Pipe Manufacturer China",
-  description: "Learn about Lanzhi Pipes Technology Co., Ltd., a professional PPR and HDPE pipe manufacturer in Linyi, Shandong, China."
+  description: "Learn about Lanzhi Pipes Technology Co., Ltd., a professional PPR and HDPE pipe manufacturer in Linyi, Shandong, China.",
+  alternates: { canonical: "/about" }
 };
+
 
 export default function About() {
   return (
@@ -34,15 +37,3 @@ export default function About() {
         </div>
       </section>
       <section className="section soft">
-        <div className="container value-grid">
-          {[
-            ["Factory", "Direct production support and stable order coordination."],
-            ["Quality", "Inspection through production and before shipment."],
-            ["Customization", "Logo printing, colors, packaging and private label."],
-            ["Export", "Professional support for international B2B customers."]
-          ].map(([title, text]) => <article key={title}><h3>{title}</h3><p>{text}</p></article>)}
-        </div>
-      </section>
-    </main>
-  );
-}
