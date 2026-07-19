@@ -2,10 +2,13 @@ import Link from "next/link";
 import Image from "next/image";
 import PageHero from "@/components/PageHero";
 
+
 export const metadata = {
   title: "Plastic Pipe Systems | PPR & HDPE Products",
-  description: "Explore Lanzhi Pipes PPR pipes, PPR fittings, HDPE pipes, HDPE fittings and complete plastic pipe systems."
+  description: "Explore Lanzhi Pipes PPR pipes, PPR fittings, HDPE pipes, HDPE fittings and complete plastic pipe systems.",
+  alternates: { canonical: "/products" }
 };
+
 
 const items = [
   ["/products/ppr-pipe", "/images/products/ppr-pipes.jpeg", "PPR Pipe System", "Hot water, cold water and composite PPR pipe solutions."],
@@ -13,6 +16,7 @@ const items = [
   ["/products/hdpe-pipe", "/images/products/hdpe-pipes.jpeg", "HDPE Pipe System", "Water supply, drainage and irrigation HDPE pipe solutions."],
   ["/products/hdpe-fittings", "/images/products/hdpe-pipes.jpeg", "HDPE Fittings", "Fusion connection solutions for HDPE pipeline projects."]
 ];
+
 
 export default function Products() {
   return (
@@ -34,5 +38,3 @@ export default function Products() {
         </div>
       </section>
     </main>
-  );
-}
