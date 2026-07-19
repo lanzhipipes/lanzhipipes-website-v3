@@ -1,9 +1,12 @@
 import ProductPage from "@/components/ProductPage";
 
+
 export const metadata = {
   title: "HDPE Fittings Supplier China",
-  description: "HDPE fittings supplier in China providing connection solutions for water supply, irrigation, drainage and engineering projects."
+  description: "HDPE fittings supplier in China providing connection solutions for water supply, irrigation, drainage and engineering projects.",
+  alternates: { canonical: "/products/hdpe-fittings" }
 };
+
 
 export default function Page() {
   return <ProductPage
@@ -28,3 +31,4 @@ export default function Page() {
     ]}
   />;
 }
+
