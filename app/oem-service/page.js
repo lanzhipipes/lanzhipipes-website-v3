@@ -2,10 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
 
+
 export const metadata = {
   title: "OEM Plastic Pipe Manufacturer China",
-  description: "OEM and private label plastic pipe manufacturing including logo printing, custom colors and custom packaging."
+  description: "OEM and private label plastic pipe manufacturing including logo printing, custom colors and custom packaging.",
+  alternates: { canonical: "/oem-service" }
 };
+
 
 export default function OEM() {
   return (
@@ -34,9 +37,3 @@ export default function OEM() {
             </div>
             <Link href="/contact" className="button primary">Discuss Your OEM Project</Link>
           </div>
-          <Image src="/images/products/ppr-fittings.jpeg" alt="OEM PPR fittings and customized packaging" width={900} height={700} className="rounded-image" />
-        </div>
-      </section>
-    </main>
-  );
-}
