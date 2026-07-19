@@ -1,9 +1,12 @@
 import ProductPage from "@/components/ProductPage";
 
+
 export const metadata = {
   title: "HDPE Pipe Manufacturer China",
-  description: "HDPE pipe manufacturer in China supplying water supply, drainage, irrigation and infrastructure pipe solutions."
+  description: "HDPE pipe manufacturer in China supplying water supply, drainage, irrigation and infrastructure pipe solutions.",
+  alternates: { canonical: "/products/hdpe-pipe" }
 };
+
 
 export default function Page() {
   return <ProductPage
@@ -28,3 +31,4 @@ export default function Page() {
     ]}
   />;
 }
+
