@@ -1,9 +1,12 @@
 import ProductPage from "@/components/ProductPage";
 
+
 export const metadata = {
   title: "PPR Pipe Manufacturer China",
-  description: "Professional PPR pipe manufacturer in China supplying hot water pipes, cold water pipes, composite pipes and OEM solutions."
+  description: "Professional PPR pipe manufacturer in China supplying hot water pipes, cold water pipes, composite pipes and OEM solutions.",
+  alternates: { canonical: "/products/ppr-pipe" }
 };
+
 
 export default function Page() {
   return <ProductPage
@@ -29,3 +32,4 @@ export default function Page() {
     ]}
   />;
 }
+
